@@ -11,16 +11,12 @@ Fcustomer/src/main/java/ca/tmas/customer/configs/ConfigModelMapper.java,3\0\301
 Meureka-server/src/main/java/ca/tmas/eurekaserver/EurekaServerApplication.java,4\7\4780eb183fb4d1471523e3355f323b784e1f0ae4
 }
 Mconfig-server/src/main/java/ca/tmas/configserver/ConfigServerApplication.java,2\c\2ca0595da2c86f476630e1b30ac5b7480e16f3ef
-r
-Bproduct/src/main/java/ca/tmas/product/entities/EntityWithUUID.java,0\7\07b546ec3483676d6ea74f06da1b63156410e614
 t
 Dproduct/src/main/java/ca/tmas/product/configs/ConfigModelMapper.java,8\0\8022e04b29ecc78c75591c5a064a3363f1279330
 p
 @product/src/main/java/ca/tmas/product/utility/ProductStatus.java,1\4\14bfe090d5ed2cb967204eca3ad177e44622bcdd
 k
 ;customer/src/main/java/ca/tmas/customer/utility/Gender.java,d\e\deeb5d9aae9cb0272f7044d2748a811b1aba7e28
-t
-Dcustomer/src/main/java/ca/tmas/customer/entities/EntityWithUUID.java,a\8\a8fcc8e6a4cba83a382eea7806754cbc796bf160
 p
 @product/src/main/java/ca/tmas/product/dao/ProductRepository.java,1\9\198da05cf195b5c9151f3eb39c088662099983f9
 s
@@ -77,17 +73,5 @@ i
 9proxy/src/main/java/ca/tmas/proxy/ServletInitializer.java,9\c\9c9710adc6bbe5b545de8f5c70f8e8b1302e50a9
 m
 =product/src/main/java/ca/tmas/product/ProductApplication.java,1\5\15c6d63f02a800fd92ac83b0efc5c86099d3a67b
-g
-7proxy/src/main/java/ca/tmas/proxy/ProxyApplication.java,e\a\eac2ebc3b0ec701832f43a071cd72e064c391db9
 =
 proxy/pom.xml,2\3\23baf65a6f701c42cdeba0649a272cbbc6daf70a
-@
-customer/pom.xml,f\0\f04db7a99ce1257e856612bd563cd946a39fac96
-?
-command/pom.xml,7\d\7da2f3d5e2536d8cccd4e66a4546e7bf1475f2c9
-@
-category/pom.xml,d\3\d3cae123d5b44b7d6a67ed281ea064338d206497
-?
-product/pom.xml,c\a\cae8333de7fc3bae59917f00a8cc124140367b26
-B
-product/.gitignore,e\3\e38493da33a164f76ef47c2657f6e28377f8e838
