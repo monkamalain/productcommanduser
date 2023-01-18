@@ -1,0 +1,26 @@
+server:
+  port: 8762
+spring:
+  application:
+        name: proxy-service
+  cloud:
+      gateway:
+          routes:
+              - id: categoryModule
+                uri: http://localhost:8763
+                predicates:
+                    - Path=/categories/**
+              - id: commandModule
+                uri: http://localhost:8764
+                predicates:
+                    - Path=/commands/**
+              - id: customerModule
+                uri: http://localhost:8765
+                predicates:
+                    - Path=/customers/**
+              - id: productModule
+                uri: http://localhost:8766
+                predicates:
+                   - Path=/products/**
+  main:
+    web-application-type: reactive

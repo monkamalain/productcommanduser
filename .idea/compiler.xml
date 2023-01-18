@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="config-server" />
+        <module name="proxy" />
+        <module name="eureka-server" />
+      </profile>
+      <profile name="Annotation profile for category" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="false">
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.22/lombok-1.18.22.jar" />
+        </processorPath>
+        <module name="product" />
+        <module name="category" />
+        <module name="command" />
+        <module name="customer" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="category" target="11" />
+      <module name="command" target="11" />
+      <module name="config-server" target="11" />
+      <module name="customer" target="11" />
+      <module name="eureka-server" target="11" />
+      <module name="product" target="11" />
+      <module name="proxy" target="11" />
+      <module name="spring-cloud-vault-dependencies" target="11" />
+      <module name="spring-cloud-vault-parent" target="17" />
+      <module name="user" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="category" options="-parameters" />
+      <module name="command" options="-parameters" />
+      <module name="config-server" options="-parameters" />
+      <module name="customer" options="-parameters" />
+      <module name="eureka-server" options="-parameters" />
+      <module name="product" options="-parameters" />
+      <module name="proxy" options="-parameters" />
+      <module name="user" options="-parameters" />
+    </option>
+  </component>
+</project>
